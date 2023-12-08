@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Pasta",
+        "ingredients": "Pasta, Sauce, Cheese",
+        "instructions": "Boil pasta, add sauce, sprinkle cheese.",
+        "imageUrl": "pasta.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Salad",
+        "ingredients": "Lettuce, Tomatoes, Cucumbers, Dressing",
+        "instructions": "Chop vegetables, mix with dressing.",
+        "imageUrl": "salad.jpg"
+    }
+]

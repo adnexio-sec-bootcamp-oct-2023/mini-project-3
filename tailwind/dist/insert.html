@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
     <title>Malaysian Recipe</title>
+    <script src="./utils/storage.js" defer></script>
 </head>
 
 <body class="bg-amber-50">
@@ -14,7 +15,7 @@
             <div class="flex space-x-4 py-3">
                 <a href="index.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Recipes</a>
                 <a href="#" class="bg-amber-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Add Recipe</a>
-                <a href="contact.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About Us</a>
+                <a href="display.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Display</a>
             </div>
         </div>
     </nav>
@@ -23,7 +24,7 @@
             <h2 class="text-2xl font-bold mb-4">New Malaysian Food Recipes</h2>
         </div>
 
-        <form style="max-width: 500px;">
+        <form style="max-width: 500px;" onsubmit="submitRecipeForm(event)">
             <div class="mt-10 grid grid-cols-1 gap-8">
                 <div>
                     <label for="title" class="block text-sm font-medium text-gray-900">Title:</label>
@@ -65,5 +66,30 @@
         </form>
     </div>
 </body>
+<script>
+    function submitRecipeForm(event) {
+        event.preventDefault();
 
+        // Get form data
+        var title = document.getElementById('title').value;
+        var author = document.getElementById('author').value;
+        var description = document.getElementById('description').value;
+
+        // You can add more fields as needed
+
+        // Construct recipe data object
+        var recipeData = {
+            title: title,
+            author: author,
+            description: description,
+            // Add other fields here
+        };
+
+        // Call the saveRecipe function from storage.js
+        saveRecipe(recipeData);
+
+        // Optionally, you can reset the form after submission
+        document.getElementById('recipeForm').reset();
+    }
+</script>
 </html>
