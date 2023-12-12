@@ -1,5 +1,3 @@
-// singlepages.js
-
 document.addEventListener("DOMContentLoaded", function () {
     // Get the URL parameter
     const urlParams = new URLSearchParams(window.location.search);
