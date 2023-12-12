@@ -31,6 +31,12 @@ const recipeContainer = document.querySelector(".grid");
       image.alt = recipe.title;
       image.style.height = "300px";
 
+      // Add click event listener to each image
+      image.addEventListener("click", () => {
+        // Navigate to another page
+        window.location.href = `singlepages.html?id=${recipe.title}`;
+      });
+
       const cardContent = document.createElement("div");
       cardContent.classList.add("p-4");
 
@@ -52,7 +58,7 @@ const recipeContainer = document.querySelector(".grid");
 
       card.appendChild(image);
       card.appendChild(cardContent);
-
+      
       recipeContainer.appendChild(card);
     });
   }

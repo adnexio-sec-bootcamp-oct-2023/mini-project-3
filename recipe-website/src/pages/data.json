@@ -6,21 +6,33 @@
     "category": "Malay Cuisine"
   },
   {
-    "title": "Nasi Lemak",
-    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/04/R02156_Mums-NasiLemak.jpg",
-    "description": "Nasi lemak is a dish originating in Malay cuisine that consists of fragrant rice cooked in coconut milk and pandan leaf.",
+    "title": "Roti Canai",
+    "image": "https://asianinspirations.com.au/wp-content/uploads/2018/08/R01095_Roti-Canai-619x412.jpg",
+    "description": "Is an Indian flatbread dish found in several countries in Southeast Asia, especially in Brunei, Indonesia, Malaysia, Singapore and Thailand",
+    "category": "Indian Cuisine"
+  },
+  {
+    "title": "Nasi Kerabu",
+    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/05/R02216-Ayam-Percik-(BBQ-Spiced-Chicken)-&-Nasi-Kerabu-(Herb-Rice-Salad)-(CSW-2019)-619x412.jpg",
+    "description": "A rice dish that is originally bluish in color, and is usually eaten with dried fish or Ayam Percik, grilled meat, salted eggs, crackers, budu and other side dishes.",
     "category": "Malay Cuisine"
   },
   {
-    "title": "Nasi Lemak",
-    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/04/R02156_Mums-NasiLemak.jpg",
-    "description": "Nasi lemak is a dish originating in Malay cuisine that consists of fragrant rice cooked in coconut milk and pandan leaf.",
+    "title": "Nasi Ayam",
+    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/07/R00376-Hainanese_Chicken_Rice-2-619x412.jpg",
+    "description": "Hainanese chicken rice is a dish of poached chicken and seasoned rice, served with chilli sauce and usually with cucumber garnishes.",
+    "category": "Chinese Cuisine"
+  },
+  {
+    "title": "Nasi Briyani",
+    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/07/R00037_Singapore-Briyani-2-619x412.jpg",
+    "description": "Is a mixed rice dish that was thought to have originated from Iran before settling in modern India. It is made with rice, some type of meat (chicken, beef, goat, lamb, prawn, or fish) and spices.",
     "category": "Malay Cuisine"
   },
   {
-    "title": "Nasi Lemak",
-    "image": "https://asianinspirations.com.au/wp-content/uploads/2019/04/R02156_Mums-NasiLemak.jpg",
-    "description": "Nasi lemak is a dish originating in Malay cuisine that consists of fragrant rice cooked in coconut milk and pandan leaf.",
+    "title": "Nasi Hujan Panas",
+    "image": "https://resepichenom.com/media/Nasi_Hujan_Panas-2.jpg",
+    "description": "This is a fabulously colourful dish that originated from the East Coast states of Kelantan and Terengganu.",
     "category": "Malay Cuisine"
   }
 ]
